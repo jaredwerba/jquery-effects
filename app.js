@@ -8,3 +8,11 @@ var main = function() {
 };
 
 $(document).ready(main);
+
+
+('.icon-menu').click(function() {
+  $('.menu').animate({
+      width: "193px"
+    },
+    300);
+});
